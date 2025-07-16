@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  color: black;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: white;
+  background-color: #0000;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #0000;
+}
+
+#imagem img {
+  width: 150px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+#imagem {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+}
+
+#letras {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 80px;
+}
+
+h2 {
+  text-align: center;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 10vh 15vw 10vh 15vw;
+}
+
+.imagens img {
+  max-width: 25vw;
+  border: 5px solid #0000;
+  border-color: black;
+}
+
+.imagens p {
+  color: black;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  padding: 1rem;
+}
+
+#Contatos {
+  padding: 60px 20px;
+  background-color: #eaeaea;
+}
+
+#Contatos form {
+  display: flex;
+  max-width: 500px;
+  margin: auto;
+  flex-direction: column;
+}
+
+#Contatos label {
+  margin-top: 10px;
+
+}
+
+#Contatos button {
+  margin-top: 20px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: black;
+  color: #eaeaea;
+  font-weight: 500px;
+}
+#Contatos input{
+padding: 2px ;
+margin-top: 5px;
+border: 1px solid black;
+border-radius: 5px;
+}
+#Contatos textarea{
+  padding: 2px ;
+margin-top: 5px;
+border: 1px solid black;
+border-radius: 5px;
+}
